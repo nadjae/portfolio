@@ -1,0 +1,188 @@
+body{
+  font-family: Roboto;
+  text-align: left;
+  color: #392A22;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: Playfair Display;
+  color: #392A22;
+}
+
+p{
+  color: #ffffff;
+}
+
+/*Headings*/
+
+.big-heading{
+  font-family: Playfair Display;
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+.section-heading{
+  font-family: Playfair Display;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.small-heading{
+  font-family: Roboto;
+  font-size: 1rem;
+
+}
+
+/*Containers*/
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/*Sections*/
+
+.pink-section{
+  background-color: #ebd7d3;
+}
+
+.green-section{
+  background-color: #CBC6CC;
+}
+
+/*Navigation Bar*/
+
+
+.nav-link{
+  font-size: 1.2rem;
+}
+
+.nav-item{
+  font-family: Playfair Display;
+  padding: 0 100px 0;
+}
+
+/*Buttons*/
+
+.fas{
+  color: #ffffff;
+}
+
+
+
+.fab {
+  color: #ffffff;
+}
+
+
+
+
+/*Title Section*/
+
+#title .container-fluid{
+  text-align: right;
+  padding: 0 0;
+}
+
+.img-nadja{
+  width: 80%;
+  float: left;
+  padding: 0 0 0 15px;
+
+}
+
+#title .big-heading{
+  font-size: 4rem;
+    padding: 250px 120px 0 0;
+}
+
+#title .small-heading{
+    padding: 0 120px 0;
+}
+
+/*About*/
+
+#about .container-fluid{
+  text-align: left;
+  padding: 7% 0 0 120px;
+}
+
+#about .small-heading{
+  padding-bottom: 4%;
+}
+
+.resume{
+  text-align: right;
+  padding-right: 140px;
+  padding-bottom: 7%;
+}
+
+.fa-file:hover{
+  color: #ebd7d3;
+}
+
+.icons-about{
+  padding: 1%;
+}
+
+
+/*Projects*/
+
+#projects .container-fluid{
+  text-align: center;
+}
+
+
+/*Contact*/
+
+#contact .container-fluid{
+  text-align: center;
+}
+
+#contact .fab:hover{
+  color: #ebd7d3;
+}
+
+#contact .fas:hover{
+  color: #ebd7d3;
+}
+
+#contact .row{
+  padding: 2% 35% 0 35%;
+}
+
+/*Footer*/
+
+#footer {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+#footer .container-fluid {
+  padding-top: 0;
+  padding-bottom: 1%;
+}
+
+#footer p {
+    color: #ebd7d3;
+}
+
+.mini-icon{
+  color: #ebd7d3;
+  margin: 20px 10px 5px;
+}
+
+.mini-icon:hover{
+  color: #CBC6CC;
+}
+
+
+@media (max-width: 1028px){
+
+  #title{
+    text-align: center;
+  }
+  .img-nadja{
+    position: static;
+  }
+}
