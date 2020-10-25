@@ -9,9 +9,6 @@ h1, h2, h3, h4, h5, h6{
   color: #392A22;
 }
 
-p{
-  color: #ffffff;
-}
 
 /*Headings*/
 
@@ -59,7 +56,7 @@ p{
 
 .nav-item{
   font-family: Playfair Display;
-  padding: 0 100px 0;
+  padding: 0 80px 0;
 }
 
 /*Buttons*/
@@ -93,18 +90,18 @@ p{
 
 #title .big-heading{
   font-size: 4rem;
-    padding: 250px 120px 0 0;
+    padding: 35% 13% 0 0;
 }
 
 #title .small-heading{
-    padding: 0 120px 0;
+    padding: 0 13% 0;
 }
 
 /*About*/
 
 #about .container-fluid{
   text-align: left;
-  padding: 7% 0 0 120px;
+  padding: 4% 8% 4% 8%;
 }
 
 #about .small-heading{
@@ -113,8 +110,7 @@ p{
 
 .resume{
   text-align: right;
-  padding-right: 140px;
-  padding-bottom: 7%;
+
 }
 
 .fa-file:hover{
@@ -125,11 +121,26 @@ p{
   padding: 1%;
 }
 
+.icon-space{
+  padding-right: 1%;
+}
+
+.more-about{
+  padding-left: 6.5%;
+}
 
 /*Projects*/
 
 #projects .container-fluid{
-  text-align: center;
+  text-align: left;
+  padding: 4% 9% 4% 9%;
+
+
+}
+
+.project-cards{
+  background-color: #CBC6CC;
+  margin-bottom: 2%;
 }
 
 
