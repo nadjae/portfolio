@@ -10,6 +10,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
+
 /*Headings*/
 
 .big-heading{
@@ -21,34 +22,26 @@ h1, h2, h3, h4, h5, h6{
 
 .section-heading{
   font-family: Playfair Display;
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 1.5;
 }
 
 .small-heading{
   font-family: Roboto;
   font-size: 1rem;
+  line-height: 1.5;
 
 }
 
-/*Containers*/
-
-.container-fluid{
-  padding: 7% 15%;
+.white-section{
+  background-color: white;
 }
 
-/*Sections*/
-
-.pink-section{
-  background-color: #ebd7d3;
-}
-
-.green-section{
-  background-color: #CBC6CC;
+.grey-section{
+  background-color: #CBC7CD;
 }
 
 /*Navigation Bar*/
-
 
 .nav-link{
   font-size: 1.2rem;
@@ -56,52 +49,48 @@ h1, h2, h3, h4, h5, h6{
 
 .nav-item{
   font-family: Playfair Display;
-  padding: 0 80px 0;
+  padding: 0 50px 0;
 }
 
 /*Buttons*/
 
 .fas{
-  color: #ffffff;
+  color: #CBC7CD;
 }
-
 
 
 .fab {
-  color: #ffffff;
+  color: #CBC7CD;
 }
-
-
 
 
 /*Title Section*/
 
 #title .container-fluid{
   text-align: right;
-  padding: 0 0;
 }
 
 .img-nadja{
   width: 80%;
   float: left;
-  padding: 0 0 0 15px;
+  padding: 0 0 0 10%;
 
 }
 
 #title .big-heading{
   font-size: 4rem;
-    padding: 35% 13% 0 0;
+  padding: 35% 9% 0 0;
 }
 
 #title .small-heading{
-    padding: 0 13% 0;
+    padding: 0 9% 0;
 }
 
 /*About*/
 
 #about .container-fluid{
   text-align: left;
-  padding: 4% 8% 4% 8%;
+  padding: 4% 9% 4% 9%;
 }
 
 #about .small-heading{
@@ -110,11 +99,10 @@ h1, h2, h3, h4, h5, h6{
 
 .resume{
   text-align: right;
-
 }
 
 .fa-file:hover{
-  color: #ebd7d3;
+  color: #BC6778;
 }
 
 .icons-about{
@@ -132,35 +120,47 @@ h1, h2, h3, h4, h5, h6{
 /*Projects*/
 
 #projects .container-fluid{
-  text-align: left;
   padding: 4% 9% 4% 9%;
-
-
 }
 
-.project-cards{
-  background-color: #CBC6CC;
-  margin-bottom: 2%;
+.img-project{
+  width: 107%;
 }
+
 
 
 /*Contact*/
 
 #contact .container-fluid{
   text-align: center;
+  padding: 4% 9% 9% 9%;
 }
 
 #contact .fab:hover{
-  color: #ebd7d3;
+  color: #BC6778;
 }
 
 #contact .fas:hover{
-  color: #ebd7d3;
+  color: #BC6778;
 }
 
 #contact .row{
   padding: 2% 35% 0 35%;
 }
+
+#contact .fas{
+  color: #white;
+}
+
+
+#contact .fab {
+  color: #white;
+}
+
+.contact-icon{
+  color: #ffffff;
+}
+
 
 /*Footer*/
 
@@ -170,29 +170,63 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #footer .container-fluid {
-  padding-top: 0;
+  padding-top: 1%;
   padding-bottom: 1%;
 }
 
 #footer p {
-    color: #ebd7d3;
+    color: #E5E1E3;
+    font-size: 0.7rem;
 }
 
 .mini-icon{
-  color: #ebd7d3;
+  color: #E5E1E3;
   margin: 20px 10px 5px;
 }
 
 .mini-icon:hover{
-  color: #CBC6CC;
+  color: #BC6778;
 }
 
+/* PRoject One*/
+
+#project-section-one .container-fluid{
+  text-align: left;
+  padding: 4% 9% 4% 9%;
+}
+
+#project-section-one .second-link{
+
+  float: right;
+}
+
+#project-section-one a{
+  font-family: Playfair Display;
+  color: #392A22;
+  font-size: 1.5rem;
+}
+
+#project-section-two .container-fluid{
+  text-align: center;
+  padding: 4% 9% 4% 9%;
+}
+
+#project-section-two p{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
 
 @media (max-width: 1028px){
 
   #title{
     text-align: center;
   }
+
+  #title .big-heading{
+
+    padding: 9% 9% 0 0;
+  }
+
   .img-nadja{
     position: static;
   }
